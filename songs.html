@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>SONGS</title>
+<link rel = "Stylesheet" type = "text/css" href = "css/songs.css">
+<link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+	
+	<script src="js/jquery-1.6.3.min.js"></script>
+	<script src="js/jquery.skitter.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script>
+	$(document).ready(function() {
+		
+		var options = {};
+	
+		if (document.location.search) {
+			var array = document.location.search.split('=');
+			var param = array[0].replace('?', '');
+			var value = array[1];
+			
+			if (param == 'animation') {
+				options.animation = value;
+			}
+			else if (param == 'type_navigation') {
+				if (value == 'dots_preview') {
+					$('.border_box').css({'marginBottom': '40px'});
+					options['dots'] = true;
+					options['preview'] = true;
+				}
+				else {
+					options[value] = true;
+					if (value == 'dots') $('.border_box').css({'marginBottom': '40px'});
+				}
+			}
+		}
+		
+		$('.box_skitter_large').skitter(options);
+		
+		// Highlight
+		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+		
+	});
+	</script>
+	
+	
+</head>
+<body>
+		<div class = "container">
+		 <div id = "headcon">
+		 <div id = "left">
+		 PARK CHANYEOL FANBASE 
+		<img src = "images/REAL.png">
+		 </div>
+		 <div id = "right">
+			Is Chanyeol your bias? Then this is the right page for you!
+		 </div>
+	</div>
+	<div id = "yo">
+		<ul> 
+	<li><a href="home.html">HOME</a></li>
+	<li><a href="movies.html">MOVIES</a></li>
+	<li><a href="songs.html">SONGS</a></li>
+	<li><a href="awards.html">AWARDS</a></li>
+	<li><a href="contact.html">CONTACT US</a></li>
+	</ul> 
+	</div>
+	<div id = "flash">
+	     
+		 <div class="box_skitter box_skitter_large " style= " z-index:0;">
+				<ul>
+					<li><a href="#blindHeight"><img src="images/i.png" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="images/p.jpeg" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="images/oi.jpg" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="images/mai.jpg" class="random" /></a></li>
+					<li><a href="#blindWidth"><img src="images/k.jpg" class="random" /></a></li>
+
+	
+		</div>
+<div id = "bodyright">
+		<ul id="vids">
+      <li><a href="https://www.youtube.com/watch?v=pcKR0LPwoYs" target="_blank"><img src="images/staywithme.png"></a></li>
+	  <li><a href="https://www.youtube.com/watch?v=3EgY4Arwv9E" target="_blank"><img src="images/weyoung.png"></a></li>
+     
+		</ul>
+	</div>
+
+	<div id = "footer">
+	<h2>FOLLOW EXO'S OFFICIAL ACCOUNTS</h2>
+			<ul id="icons">
+				<li><a href="https://www.facebook.com/weareoneEXO" target="_blank"><img src="images/facebook.png"></a></li>
+				<li><a href="https://www.twitter.com/weareoneEXO" target="_blank"><img src="images/twitter.png"></a></li>
+				<li><a href="https://www.instagram.com/weareone.EXO" target="_blank"><img src="images/instagram.png"></a></li>
+				<li><a href="https://www.youtube.com/channel/UCzCedBCSSltI1TFd3bKyN6g" target="_blank"><img src="images/youtube.png"></a></li>
+			</ul>		
+			</div>
+			<div id = "chanchan">
+	<h3>FOLLOW CHANYEOL'S OFFICIAL ACCOUNTS</h3>
+			<ul id="iconss">
+					<li><a href="https://soundcloud.com/realpcysc" target="_blank"><img src="images/soundcloud.png"></a></li>
+				<li><a href="https://www.instagram.com/real__pcy" target="_blank"><img src="images/instagram.png"></a></li>
+				<li><a href="https://www.youtube.com/channel/UCcwA20wwL_aZ7jNZElo75pQ" target="_blank"><img src="images/youtube.png"></a></li>
+			</ul>		
+			</ul>		
+			</div>
+	</div>
+</body>
+</html>

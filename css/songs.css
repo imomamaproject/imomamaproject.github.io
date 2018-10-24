@@ -1,0 +1,158 @@
+body{
+background-image:url("../images/f.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+.container{
+width: 1000px;
+height:1000px;
+border:solid red;
+margin: 0 auto;
+}
+#headcon{
+width: 1000px;
+height:100px;
+}
+#left{
+width: 500px;
+height: 100px;
+background: white;
+float: left;
+background: grey;
+font-size:25px;
+}
+#left img{
+background-repeat:no-repeat;
+width: 150px;
+height: 100px;
+float:left;
+}
+#right{
+width:500px;
+height: 100px;
+background: pink;
+float: right;
+font-size:30px;
+}
+#yo{
+width:1000px;
+height:50px;
+.background:#213;
+float:left;
+}
+#yo ul > li{
+float:center;
+list-style:none;
+margin-top: 0px;
+display: inline-block;
+font-style:bold;
+}
+#yo li >a{
+font-style:bold;
+color:black;
+padding:10px 50px;
+}
+
+#yo li a:hover{
+border: solid black;
+background-color: green;
+}
+#flash{
+width: 1000px;
+height: 400px;
+float:left;
+}
+#flash img{
+width: 1000px;
+height: 400px;
+padding-right:30px;
+}
+#bodyright{
+width: 1000px;
+height: 300px;
+background: yellow;
+float: right;
+}
+#link{
+	padding-left: 10px;
+}
+#link li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+#link li img {
+	width: 250px;
+	height: 280px;
+	padding: 10px 5px;
+	transition: 0.5s all;
+}
+#link li img:hover {
+	margin-top: -10px;
+}
+#footer{
+width: 500px;
+height: 75px;
+background:violet;
+padding-top:10px;
+flOAT:left;
+}
+#icons{
+	padding-left: 30px;
+}
+#icons li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+#icons li img {
+	width: 60px;
+	height: 60px;
+	padding: 10px 5px;
+	transition: 0.5s all;
+}
+#icons li img:hover {
+	margin-top: -10px;
+}
+#vids{
+	padding-left: 30px;
+}
+#vids li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+#vids li img {
+	width: 370px;
+	height: 250px;
+	padding: 10px 5px;
+	transition: 0.5s all;
+}
+#vids li img:hover {
+	margin-top: -10px;
+}
+#chanchan{
+width: 500px;
+height: 75px;
+background:violet;
+padding-top:10px;
+flOAT:right;
+}
+#iconss{
+	padding-left: 30px;
+	padding-top:10px;
+}
+#iconss li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+#iconss li img {
+	width: 60px;
+	height: 60px;
+	padding: 10px 5px;
+	transition: 0.5s all;
+}
+#iconss li img:hover {
+	margin-top: -10px;
+}

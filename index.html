@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>Tagsip</title>
+<link rel = "Stylesheet" type = "text/css" href = "css/act6.css">
+<link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+	
+	<script src="js/jquery-1.6.3.min.js"></script>
+	<script src="js/jquery.skitter.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script>
+	$(document).ready(function() {
+		
+		var options = {};
+	
+		if (document.location.search) {
+			var array = document.location.search.split('=');
+			var param = array[0].replace('?', '');
+			var value = array[1];
+			
+			if (param == 'animation') {
+				options.animation = value;
+			}
+			else if (param == 'type_navigation') {
+				if (value == 'dots_preview') {
+					$('.border_box').css({'marginBottom': '40px'});
+					options['dots'] = true;
+					options['preview'] = true;
+				}
+				else {
+					options[value] = true;
+					if (value == 'dots') $('.border_box').css({'marginBottom': '40px'});
+				}
+			}
+		}
+		
+		$('.box_skitter_large').skitter(options);
+		
+		// Highlight
+		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+		
+	});
+	</script>
+	
+	
+</head>
+<body>
+		<div class = "container">
+		 <div id = "headcon">
+		 <div id = "left">
+		 PARK CHANYEOL FANBASE 
+		<img src = "images/REAL.png">
+		 </div>
+		 <div id = "right">
+			Is Chanyeol your bias? Then this is the right page for you!
+		 </div>
+	</div>
+	<div id = "yo">
+		<ul> 
+	<li><a href="home.html">HOME</a></li>
+	<li><a href="movies.html">MOVIES</a></li>
+	<li><a href="songs.html">SONGS</a></li>
+	<li><a href="awards.html">AWARDS</a></li>
+	<li><a href="contact.html">CONTACT US</a></li>
+	</ul> 
+	</div>
+	<div id = "flash">
+	     
+		 <div class="box_skitter box_skitter_large " style= " z-index:0;">
+				<ul>
+					<li><a href="#blindHeight"><img src="images/i.png" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="images/p.jpeg" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="images/oi.jpg" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="images/mai.jpg" class="random" /></a></li>
+					<li><a href="#blindWidth"><img src="images/k.jpg" class="random" /></a></li>
+					
+					
+							</ul>
+			</div>
+
+	
+		</div>
+	<div id = "bodycon">
+	<div id = "bodyleft">
+	<div id = "bodyup">
+</div>
+	<div id = "bodydown">
+	</div>
+</div>
+<div id = "bodyright">
+     <STRONG> PARK CHANYEOL </STRONG>
+	 <br>Chanyeol, is the main rapper of the group EXO . Chanyeol was born on November 27, 1992 (age 22) in Seoul, South Korea. He attended Hyundai Chungun High School in Dong-gu, Ulsan and was admitted to a private acting institution when he was sixteen years old. Chanyeol has been a fan of musical instruments since his primary school years and has cited the film School of Rock to be his main influence in inspiring him to learn the drums.
+During middle school, Chanyeol formed the band "Heavy Noise" with his friends. After winning second place in a televised uniform modeling contest in 2008, Chanyeol successfully auditioned for S.M. Entertainment through the S.M. Casting System. During this time, he was involved in his school's band, "Seiren." He made several media appearances prior to his debut with Exo, includingTVXQ's music video, "HaHaHa Song" with Suho and Kai in 2008, and in 2010, he starred in the music video of Girls' Generation Japanese single, "Genie". He was also featured in Girl's Generation TTS TWINKLE along with Kai, Sehun, And Baekhyun.
+Chanyeol was the twelfth and last member of Exo to be formally introduced to the public, on February 23, 2012. He cites Jason Mraz and Eminem to be his biggest influences. Chanyeol guest starred in the second episode of the 2013 sitcom, Royal Villa, with fellow member Sehun. He also appear in K.Will's M/V You Don't Know Love with actress Lee Hojung. Chanyeol was also a member of SBS's Law of the Jungle in Micronesia and was a member of SBS's Roommate for the duration of Season 1, leaving due to schedule conflicts.</br>
+	</div>
+		</div>
+
+	<div id = "footer">
+	<h2>FOLLOW EXO'S OFFICIAL ACCOUNTS</h2>
+			<ul id="icons">
+				<li><a href="https://www.facebook.com/weareoneEXO" target="_blank"><img src="images/facebook.png"></a></li>
+				<li><a href="https://www.twitter.com/weareoneEXO" target="_blank"><img src="images/twitter.png"></a></li>
+				<li><a href="https://www.instagram.com/weareone.EXO" target="_blank"><img src="images/instagram.png"></a></li>
+				<li><a href="https://www.youtube.com/channel/UCzCedBCSSltI1TFd3bKyN6g" target="_blank"><img src="images/youtube.png"></a></li>
+			</ul>		
+			</div>
+			<div id = "chanchan">
+	<h3>FOLLOW CHANYEOL'S OFFICIAL ACCOUNTS</h3>
+			<ul id="iconss">
+					<li><a href="https://soundcloud.com/realpcysc" target="_blank"><img src="images/soundcloud.png"></a></li>
+				<li><a href="https://www.instagram.com/real__pcy" target="_blank"><img src="images/instagram.png"></a></li>
+				<li><a href="https://www.youtube.com/channel/UCcwA20wwL_aZ7jNZElo75pQ" target="_blank"><img src="images/youtube.png"></a></li>
+			</ul>		
+			</ul>		
+			</div>
+	</div>
+</body>
+</html>
